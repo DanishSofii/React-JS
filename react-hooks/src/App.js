@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import PostForm from './components/PostForm';
-import PostList from './components/PostLists';
+import StateObj from './components/StateObj';
+import StateArray from './components/StateArray';
 function App() {
   return (
     <div className="App">
-      {/* <PostList/> */}
-      <PostForm/>
+      {/* <StateObj/> */}
+      <StateArray/>
     </div>
   );
 }
